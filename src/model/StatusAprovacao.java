@@ -2,15 +2,15 @@ package model;
 
 /**
  * Enumeração que define o status acadêmico do aluno a partir da sua média ponderada/aritmética.
- * - Aprovado (Approved): média >= 7.0
- * - Prova Final (Final Exam): 4.0 <= média < 7.0
- * - Reprovado (Failed): média < 4.0
+ * - Aprovado: média >= 7.0
+ * - Prova Final: 4.0 <= média < 7.0
+ * - Reprovado: média < 4.0
  */
 public enum StatusAprovacao {
 
-    APROVADO("Aprovado / Approved"),
-    PROVA_FINAL("Prova Final / Final Exam"),
-    REPROVADO("Reprovado / Failed");
+    APROVADO("Aprovado"),
+    PROVA_FINAL("Prova Final"),
+    REPROVADO("Reprovado");
 
     private final String descricao;
 
